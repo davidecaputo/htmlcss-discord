@@ -1,0 +1,125 @@
+/* general */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ffffff;
+    --header: #255EE9;
+    --section-color: #f6f6f6;
+    --violet: #7289da;
+    --footer-color: #23272a;
+    --black: #000000;
+}
+
+.contenitore{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.p-nav{
+    padding-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0px 20px;
+}
+
+.flex-elementi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.center{
+    align-items: center;
+    align-content: center;
+}
+
+.centratura-testo{
+    text-align: center;
+}
+
+.button{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    padding: 6px 10px;
+    color: var(--black);
+}
+
+.button-black{
+    background-color: var(--footer-color);
+    color: var(--primary-color);
+}
+
+.button-grande{
+    padding: 10px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+/* header */
+
+header{
+    background-color: var(--header);
+}
+
+#hero-image{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: 0% 60%;
+    height: 600px;
+}
+
+.testo-principale{
+    max-width: 700px;
+    color: var(--primary-color);
+}
+
+.testo-principale p{
+    padding: 20px 10px;
+    line-height: 1.8;
+}
+
+/* main */
+
+.sezione-grigia{
+    background-color: var(--section-color);
+}
+
+.left{
+    width: 60%;
+}
+
+.right{
+    width: 40%;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--footer-color);
+    color: white;
+}
