@@ -143,6 +143,14 @@ footer{
     color: white;
 }
 
+.footer-up{
+    padding: 60px 0px 30px;
+}
+
+footer div ul{
+    line-height: 2.2;
+}
+
 .flag{
     height: 15px;
 }
