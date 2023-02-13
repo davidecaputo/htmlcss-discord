@@ -70,8 +70,17 @@ li{
     color: var(--primary-color);
 }
 
+.button-violet{
+    background-color: var(--violet);
+    color: var(--primary-color);
+}
+
 .button-grande{
     padding: 10px 10px;
+}
+
+.m-button{
+    margin: 30px 0px 90px;
 }
 
 a{
