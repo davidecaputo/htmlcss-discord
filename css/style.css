@@ -142,3 +142,11 @@ footer{
     background-color: var(--footer-color);
     color: white;
 }
+
+.flag{
+    height: 15px;
+}
+
+.testo-viola{
+    color: var(--violet);
+}
