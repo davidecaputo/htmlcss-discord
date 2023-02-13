@@ -158,3 +158,8 @@ footer div ul{
 .testo-viola{
     color: var(--violet);
 }
+
+.footer-down{
+    border-top: 1px solid var(--violet);
+    padding: 20px 0px 60px;
+}
