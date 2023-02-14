@@ -26,10 +26,6 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
-.debug{
-    border: 1px solid black;
-}
-
 .p-nav{
     padding-top: 10px;
 }
